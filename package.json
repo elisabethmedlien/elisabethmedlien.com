@@ -1,0 +1,33 @@
+{
+  "name": "elisabethmedlien.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "build": "webpack --mode production --config webpack.config.js",
+    "start": "webpack-dev-server --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elisabethmedlien/elisabethmedlien.com.git"
+  },
+  "author": "Elisabeth Medlien",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elisabethmedlien/elisabethmedlien.com/issues"
+  },
+  "homepage": "https://github.com/elisabethmedlien/elisabethmedlien.com#readme",
+  "dependencies": {
+    "firebase": "^9.6.2"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^10.2.0",
+    "css-loader": "^6.5.1",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.7.2"
+  }
+}
