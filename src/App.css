@@ -87,6 +87,12 @@ section {
   align-items: center;
 }
 
+section:first-of-type {
+  margin-bottom: 15px;
+  border-bottom: 1px solid #b05a2c;
+  padding-bottom: 15px;
+}
+
 img.profile-img {
   border-radius: 50%;
   width: 150px;

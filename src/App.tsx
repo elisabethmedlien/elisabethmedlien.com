@@ -1,30 +1,21 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Elisabeth Medlien</title>
-    <script src="app.js"></script>
-    <link rel="icon" href="/static/favicon2.ico" />
-  </head>
-  <body>
-    <article>
-      <img class="logo" src="./static/logo.svg" />
+import "./App.css";
+import Logo from "./assets/logo.svg";
+import ProfilePicture from "./assets/image-em.png";
 
-      <section
-        style="
-          margin-bottom: 15px;
-          border-bottom: 1px solid #b05a2c;
-          padding-bottom: 15px;
-        "
-      >
-        <img class="profile-img" src="./static/image-em.png" loading="lazy" />
+function App() {
+  return (
+    <article>
+      <img className="logo" src={Logo} />
+
+      <section>
+        <img className="profile-img" src={ProfilePicture} loading="lazy" />
         <hgroup>
-          <span class="wordart-wrapper">
-            <h1 class="wordart">Elisabeth Medlien</h1>
+          <span className="wordart-wrapper">
+            <h1 className="wordart">Elisabeth Medlien</h1>
           </span>
-          <h2>Software Engineer <span>|</span> Oslo, Norway</h2>
+          <h2>
+            Software Engineer <span>|</span> Oslo, Norway
+          </h2>
           <h3>Fullstack developer & certified SCRUM master</h3>
         </hgroup>
       </section>
@@ -71,27 +62,32 @@
               href="https://github.com/elisabethmedlien"
               target="_blank"
               rel="nofollow"
-              >GITHUB</a
             >
+              GITHUB
+            </a>
           </li>
           <li>
             <a
               href="https://www.linkedin.com/in/elisabeth-medlien-b564483a/"
               target="_blank"
               rel="nofollow"
-              >LINKEDIN</a
             >
+              LINKEDIN
+            </a>
           </li>
           <li>
             <a
               href="mailto:elisabethmedlien@gmail.com"
               target="_blank"
               rel="nofollow"
-              >MAIL</a
             >
+              MAIL
+            </a>
           </li>
         </ul>
       </section>
     </article>
-  </body>
-</html>
+  );
+}
+
+export default App;
