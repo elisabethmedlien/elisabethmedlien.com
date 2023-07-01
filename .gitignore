@@ -3,3 +3,5 @@ build
 .firebase
 .firebaserc
 firebase.json
+.DS_Store
+src/.DS_Store
