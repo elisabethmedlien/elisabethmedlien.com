@@ -5,8 +5,8 @@ import BlogPost from "../components/BlogPost";
 import AquariumHealthMetrics from "../components/AquariumHealthMetrics";
 import MyAquariumImg from "../assets/my-aquarium-1-sept-2023.jpg";
 import MyAquariumImg2 from "../assets/my-aquarium-18-sept-2023.jpg";
-// import MyAquariumGif from "../assets/my-aquarium-18-sept-2023.gif";
-// import MyAquariumGif2 from "../assets/my-aquarium-21-sept-2023.gif";
+import MyAquariumGif from "../assets/my-aquarium-18-sept-2023.gif";
+import MyAquariumGif2 from "../assets/my-aquarium-21-sept-2023.gif";
 
 const posts = [
   {
@@ -23,7 +23,7 @@ const posts = [
         </p>
         <figure style={{ textAlign: "center" }}>
           <img
-            src={MyAquariumImg}
+            src={MyAquariumGif2}
             alt="Akvarie med fisk"
             loading="lazy"
             width="500"
@@ -58,7 +58,7 @@ const posts = [
         </p>
         <figure style={{ textAlign: "center" }}>
           <img
-            src={MyAquariumImg}
+            src={MyAquariumGif}
             alt="Akvarie med fisk"
             loading="lazy"
             width="500"
