@@ -7,8 +7,119 @@ import MyAquariumImg from "../assets/my-aquarium-1-sept-2023.jpg";
 import MyAquariumImg2 from "../assets/my-aquarium-18-sept-2023.jpg";
 import MyAquariumGif from "../assets/my-aquarium-18-sept-2023.gif";
 import MyAquariumGif2 from "../assets/my-aquarium-21-sept-2023.gif";
+import BookFromAuction from "../assets/book-from-auction.jpg";
+import MyAquariumGif3 from "../assets/my-aquarium-11-okt-2023.gif";
+import MyAquariumImg3 from "../assets/my-aquarium-18-okt-2023.jpg";
+import ScreenshotHomeAssistant from "../assets/screenshot-home-assistant.png";
+
+import AuctionHall from "../assets/auction-hall.jpg";
 
 const posts = [
+  {
+    title: "The setup",
+    date: "18. oktober 2023",
+    node: (
+      <>
+        <p>
+          Homeassistant for å holde styr på lys, vannbytte og mating. Pluss litt
+          informasjon.
+        </p>
+        <figure style={{ textAlign: "center" }}>
+          <img
+            src={MyAquariumImg3}
+            alt="Bok om L-maller"
+            loading="lazy"
+            width="500"
+          />
+          <figcaption>Bilde: Bok om L-maller</figcaption>
+        </figure>
+        <figure style={{ textAlign: "center" }}>
+          <img
+            src={ScreenshotHomeAssistant}
+            alt="Bok om L-maller"
+            loading="lazy"
+            width="500"
+          />
+          <figcaption>Bilde: Bok om L-maller</figcaption>
+        </figure>
+      </>
+    ),
+  },
+  {
+    title: "Boka fra auksjonen",
+    date: "15. oktober 2023",
+    node: (
+      <>
+        <figure style={{ textAlign: "center" }}>
+          <img
+            src={BookFromAuction}
+            alt="Bok om L-maller"
+            loading="lazy"
+            width="500"
+          />
+          <figcaption>Bilde: Bok om L-maller</figcaption>
+        </figure>
+      </>
+    ),
+  },
+  {
+    title: "Fiskeauksjon på Jar",
+    date: "14. oktober 2023",
+    node: (
+      <>
+        <p>
+          I helga var det fiskeauksjon på Jar med Oslo akvarieklubb. Veldig
+          flotte greier! Vi satt klare på stolspissen for å by på blå Guppy, men
+          dessverre dukket den perfekte Guppy'n aldri opp. Jeg fikk heldigvis
+          tak i en bok om L-maller. Om så bare for å si at jeg har deltatt
+          aktivt på fiskeauksjon. Det var gøy!
+        </p>
+        <figure style={{ textAlign: "center" }}>
+          <img
+            src={AuctionHall}
+            alt="Fiskeauksjon"
+            loading="lazy"
+            width="500"
+          />
+          <figcaption>
+            Bilde: Fiskeauksjon på Jar med Oslo akvarieklubb.
+          </figcaption>
+        </figure>
+      </>
+    ),
+  },
+  {
+    title: "Møt Lars!",
+    date: "11. oktober 2023",
+    node: (
+      <>
+        <p>
+          Lars er en bølle av en Ancistrus. Jeg fant nylig ut at han ikke er av
+          det samme slaget som resten av flokken. Så han er altså ikke en
+          slørhale ancistrus som vi trodde tidligere. Han er en luring.
+        </p>
+        <figure style={{ textAlign: "center" }}>
+          <img
+            src={MyAquariumGif3}
+            alt="Fisken Lars"
+            loading="lazy"
+            width="300"
+          />
+          <figcaption>Bilde: Bølla Lars</figcaption>
+        </figure>
+      </>
+    ),
+  },
+  {
+    title: "Første måling etter fisk",
+    date: "01. oktober 2023",
+    node: (
+      <>
+        <AquariumHealthMetrics nh4={0.05} no2={0.025} no3={1} ph={6.5} kh={6} />
+        <p>Det er god helse i akvariet mitt!</p>
+      </>
+    ),
+  },
   {
     title: "Husvarme",
     date: "21. september 2023",

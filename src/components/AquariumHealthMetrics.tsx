@@ -31,7 +31,7 @@ const AquariumHealthMethrics: FC<HealthMethrics> = ({
           <td>
             NH<sub>4</sub>
           </td>
-          <td>{nh4 === 0.05 ? <>&gt; {nh4}</> : nh4}</td>
+          <td>{nh4 === 0.05 ? <>&lt; {nh4}</> : nh4}</td>
         </tr>
         <tr>
           <td>Nitritt</td>
