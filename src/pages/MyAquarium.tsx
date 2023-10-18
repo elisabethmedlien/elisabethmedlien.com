@@ -27,20 +27,20 @@ const posts = [
         <figure style={{ textAlign: "center" }}>
           <img
             src={MyAquariumImg3}
-            alt="Bok om L-maller"
+            alt="Bilde av akvarie og en skjerm med Home Assistant"
             loading="lazy"
             width="500"
           />
-          <figcaption>Bilde: Bok om L-maller</figcaption>
+          <figcaption>Bilde: Oppsett med akvarie og Home Assistant</figcaption>
         </figure>
         <figure style={{ textAlign: "center" }}>
           <img
             src={ScreenshotHomeAssistant}
-            alt="Bok om L-maller"
+            alt="Skjermbilde av Home Assistant"
             loading="lazy"
             width="500"
           />
-          <figcaption>Bilde: Bok om L-maller</figcaption>
+          <figcaption>Bilde: Screenshot fra Home Assistant</figcaption>
         </figure>
       </>
     ),
