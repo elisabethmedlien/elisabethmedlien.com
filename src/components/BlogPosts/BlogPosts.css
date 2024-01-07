@@ -1,0 +1,11 @@
+strong {
+  font-weight: 500; 
+}
+
+ul {
+  margin-top: 15px;
+}
+
+ul li:not(:last-of-type){
+  margin-bottom: 10px;
+}

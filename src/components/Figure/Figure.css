@@ -1,0 +1,8 @@
+figure {
+  text-align: center;
+}
+
+
+figure + figure {
+  margin-top: 15px;
+}

@@ -1,0 +1,24 @@
+.info-panel {
+  border: 1px solid #c6c6d5;
+  background-color: #d4e1e5;
+  padding: 10px;
+  margin: 15px 10px;
+  text-align: center;
+}
+
+.info-panel h3 {
+  font-size: 14px;
+}
+
+.info-panel h4 {
+  font-size: 12px;
+  margin-bottom: 3px;
+}
+
+.info-panel h4 + p {
+  margin-top: 3px;
+}
+
+.info-panel p {
+  font-size: 12px;
+}

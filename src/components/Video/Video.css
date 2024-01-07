@@ -1,0 +1,16 @@
+iframe { 
+  border: 0;
+  max-width: 500px;
+  width: 100%;
+}
+
+@media only screen and (max-width: 580px) {
+
+  iframe.horizontal-video {
+      height: 200px; 
+  }
+
+  iframe.vertical-video {
+        height: 500px; 
+  }
+}
