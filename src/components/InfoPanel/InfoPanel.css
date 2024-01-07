@@ -22,3 +22,20 @@
 .info-panel p {
   font-size: 12px;
 }
+
+.info-panel .header svg path {
+  fill: #0c3c4d
+}
+
+
+@media only screen and (min-width: 580px) {
+  .info-panel .header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .info-panel .header svg {
+    margin-right: 5px;
+  }
+}

@@ -87,10 +87,7 @@ export const blogPosts = [
           å lage i stand noe der senere. Ellers har de fått utsmykket karet sitt
           med flere skjell fra stranda i Frankrike og litt javamose.
         </p>
-        <InfoPanel>
-          <h3>
-            Hvorfor danser Guppyhannene når det ikke er noen hunner tilstede?
-          </h3>
+        <InfoPanel title="Hvorfor danser Guppyhannene når det ikke er noen hunner tilstede?">
           <p>
             Selv i fravær av hunner kan guppy-hanner fortsette å vise
             parringsatferd, inkludert dansing. Dette skyldes flere mulige
@@ -143,8 +140,7 @@ export const blogPosts = [
           størrelsen på babyene nå. De minste er bare øyer lol. De eldste ser jo
           faktisk ut som fisk.
         </p>
-        <InfoPanel>
-          <h3>Synlige kjønnsforskjeller på guppybabyer</h3>
+        <InfoPanel title="Synlige kjønnsforskjeller på guppybabyer">
           <p>
             Du kan begynne å se kjønnsforskjeller hos guppy-babyer (fry) fra de
             er omtrent en måned gamle. I denne alderen begynner hannene å vise
@@ -278,8 +274,7 @@ export const blogPosts = [
           vet ikke hvorfor.
         </p>
 
-        <InfoPanel>
-          <h3>Finneråte</h3>
+        <InfoPanel title="Finneråte">
           <p>
             Finneråte er en vanlig sykdom som påvirker finnene på fisk, ofte
             sett i akvarier og fiskeoppdrett. Denne tilstanden er forårsaket av
@@ -357,8 +352,7 @@ export const blogPosts = [
           det.
         </p>
 
-        <InfoPanel>
-          <h3>Hvorfor danser Guppyhannene?</h3>
+        <InfoPanel title="Hvorfor danser Guppyhannene?">
           <p>
             Guppy-hannene danser som en del av deres parringsatferd, kjent som
             "courtship display". Denne oppvisningen er en måte for hannene å
