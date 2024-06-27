@@ -1,0 +1,20 @@
+header {
+  background-color: #000203;
+  padding-top: 55px;
+}
+
+section {
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media screen and (min-width: 480px) {
+  .myResolutions {
+    padding: 50px; 
+  }
+
+  section {
+    flex-direction: row;
+  }
+}

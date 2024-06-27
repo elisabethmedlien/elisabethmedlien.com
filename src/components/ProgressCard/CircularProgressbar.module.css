@@ -1,0 +1,22 @@
+.progressContainer {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.progressRing {
+  transform: rotate(-90deg);
+  transform-origin: center;
+}
+
+.progressRingCircle {
+  transition: stroke-dashoffset 0.35s;
+  transform: rotate(-90deg);
+  transform-origin: center;
+}
+
+.progressLabel {
+  position: absolute;
+  font-size: 1.5em;
+}
